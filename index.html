@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Gentle Surprise</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="stage-landing" class="container active-stage">
+        <div class="flower-outer" id="main-flower-button">
+            <img src="/assets/flower.jfif" alt="A closed flower" class="flower-image closed" id="flower-visual">
+            <div class="bloom-effect"></div>
+        </div>
+        <h1 class="landing-text">Click the flower...</h1>
+    </div>
+
+    <div id="stage-message" class="container rain-container">
+        <div class="message-box" id="the-message-box">
+            
+            <div id="part-1" class="full-width">
+                <div class="carousel-container">
+                    <img src="/assets/IMG_20260612_020708_354.jpg" class="carousel-photo active" alt="Memory 1">
+                    <img src="/assets/IMG_20260612_020644_537.jpg" class="carousel-photo" alt="Memory 2">
+                    <img src="/assets/IMG_20260612_020656_967.jpg" class="carousel-photo" alt="Memory 3">
+                     <img src="/assets/IMG_20260612_020722_798.jpg" class="carousel-photo" alt="Memory 4">
+                </div>
+
+                <div id="typing-text" class="typing-text"></div>
+
+                <div class="answer-buttons hidden" id="tuloy-buttons">
+                    <button id="tuloy-btn" class="btn btn-yes">Click moto</button>
+                </div>
+            </div>
+
+            <div id="part-2" style="display: none;" class="full-width">
+                <h2 class="the-question">Sorry bab sa lahat ng nagawa ko sayo, sana mapatawad moko :((</h2>
+                <div class="answer-buttons">
+                    <button id="yes-button" class="btn btn-yes">Yes?</button>
+                    <button id="no-2-btn" class="btn btn-no">No</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="rain" id="rain-drops"></div>
+    </div>
+
+    <div id="stage-success" class="container">
+        <div class="rain" id="flower-rain-drops"></div>
+        <div class="success-content wide-box">
+            <h1 class="success-header">Thank you for everything! Sobrang na aappreciate kita. ❤️🥰</h1>
+           
+            <p class="final-message"></p>
+            <button id="close-btn" class="btn btn-yes" style="margin-top: 20px;">Close</button>
+        </div>
+    </div>
+
+    <div id="stage-bouquet" class="container bouquet-container">
+        <div class="bouquet-content">
+            <h1 class="bouquet-header">For you! 💐</h1>
+            <div class="bouquet-image-wrapper">
+                <img src="assets/745771-removebg-preview.png" alt="A beautiful bouquet" class="bouquet-pic">
+            </div>
+        </div>
+    </div>
+
+    <audio id="bg-music" src="/assets/이하이 (LeeHi) - ONLY Official MV (ENG CHN).mp3" loop></audio>
+
+    <script src="index.js"></script>    
+</body>
+</html>
