@@ -66,7 +66,7 @@ body {
 
 /* Background & Message Box */
 .rain-container {
-    background-image: url('IMG_20260603_185500_588.jpg'); 
+    background-image: url('./asserts/IMG_20260603_185500_588.jpg'); 
     background-size: cover;
     background-position: center;
     position: relative;

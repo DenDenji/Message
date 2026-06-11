@@ -145,7 +145,7 @@ function createFlowerRain() {
     
     for (let i = 0; i < 15; i++) {
         const flowerPic = document.createElement('img');
-        flowerPic.src = '/assets/lilac.jfif'; 
+        flowerPic.src = './assets/lilac.jfif'; 
         flowerPic.classList.add('falling-flower-pic');
         
         flowerPic.style.left = Math.random() * 100 + 'vw';
