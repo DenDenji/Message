@@ -116,7 +116,7 @@ function createMagicBackground() {
     
     for (let i = 0; i < 15; i++) {
         const photo = document.createElement('img');
-        photo.src = '/assets/IMG_20260612_020656_967.jpg'; 
+        photo.src = './assets/IMG_20260612_020656_967.jpg'; 
         photo.classList.add('falling-photo');
         
         photo.style.left = Math.random() * 100 + 'vw';
